@@ -4,8 +4,8 @@ body, html {
   }
   
   .bgimg {
-    background-image: url('/pics/Sandra.png');
-    height: 50%;
+    background-image: url('/pics/Sandra-min.png');
+    height: 100%;
     background-position: center;
     background-size: cover;
     position: relative;
