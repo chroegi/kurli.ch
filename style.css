@@ -15,6 +15,10 @@ body, html {
     text-shadow: 1px 1px 1px #000;
   }
   
+  img {
+    border-radius: 8px;
+  }
+  
   .topleft {
     position: absolute;
     top: 0;
