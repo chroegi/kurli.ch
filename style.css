@@ -1,41 +1,32 @@
 @font-face {
   font-family: 'Crafty Girls';
-  src: url('CraftyGirls-Regular.eot');
-  src: local('Crafty Girls Regular'), local('CraftyGirls-Regular'),
-      url('CraftyGirls-Regular.eot?#iefix') format('embedded-opentype'),
-      url('CraftyGirls-Regular.woff2') format('woff2'),
-      url('CraftyGirls-Regular.woff') format('woff'),
-      url('CraftyGirls-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
+  src: url('CraftyGirls-Regular.woff2') format('woff2');
 }
 
 body, html {
   height: 100%;
   margin: 0;
-  font-family: 'Crafty Girls', Fallback, sans-serif;
 }
 
 .bgimg {
   /*
-  background-image: url('/pics/Sandra.png');
-  height: 100%;
-  background-position: center;
-  background-size: contain;
-  position: relative;
-  color: white;
-  
-  font-family: "Crafty Girls", Courier, monospace;
-  text-shadow: 1px 1px 1px #000;
+    background-image: url('/pics/Sandra.png');
+    height: 100%;
+    background-position: center;
+    background-size: contain;
+    position: relative;
+    color: white;
+    text-shadow: 1px 1px 1px #000;
   */
   font-size: 25px;
+  font-family: "Crafty Girls", Courier, monospace;
 }
 
 img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 65%;
+  width: 80%;
 }
 
 .topleft {
